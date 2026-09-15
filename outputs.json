@@ -1,0 +1,87 @@
+{
+    "entities": [
+        {
+            "text": "Berners-Lee",
+            "type": "PERSON"
+        },
+        {
+            "text": "London",
+            "type": "GPE"
+        },
+        {
+            "text": "8 June 1955",
+            "type": "DATE"
+        },
+        {
+            "text": "CERN",
+            "type": "ORG"
+        },
+        {
+            "text": "June to December 1980",
+            "type": "DATE"
+        },
+        {
+            "text": "Geneva",
+            "type": "GPE"
+        },
+        {
+            "text": "project",
+            "type": "CONCEPT"
+        },
+        {
+            "text": "hypertext",
+            "type": "CONCEPT"
+        },
+        {
+            "text": "researchers",
+            "type": "GROUP"
+        }
+    ],
+    "relations": [
+        {
+            "subject": "Berners-Lee",
+            "relation": "bornIn",
+            "object": "London"
+        },
+        {
+            "subject": "Berners-Lee",
+            "relation": "bornOn",
+            "object": "8 June 1955"
+        },
+        {
+            "subject": "Berners-Lee",
+            "relation": "workedAs",
+            "object": "independent contractor"
+        },
+        {
+            "subject": "Berners-Lee",
+            "relation": "workedAt",
+            "object": "CERN"
+        },
+        {
+            "subject": "Berners-Lee",
+            "relation": "workedDuring",
+            "object": "June to December 1980"
+        },
+        {
+            "subject": "Berners-Lee",
+            "relation": "wasIn",
+            "object": "Geneva"
+        },
+        {
+            "subject": "Berners-Lee",
+            "relation": "proposed",
+            "object": "project"
+        },
+        {
+            "subject": "project",
+            "relation": "basedOn",
+            "object": "hypertext"
+        },
+        {
+            "subject": "project",
+            "relation": "facilitatesInformationSharingAmong",
+            "object": "researchers"
+        }
+    ]
+}
